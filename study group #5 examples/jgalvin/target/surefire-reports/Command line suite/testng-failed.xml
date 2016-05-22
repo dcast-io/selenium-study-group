@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.selenium.test.testng.tests.SimpleTest">
+        <methods>
+          <include name="testFillGoogleForm"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.SimpleTest -->
+      <class name="com.selenium.test.testng.tests.PageObjectTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.PageObjectTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
